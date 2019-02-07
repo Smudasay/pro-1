@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app7.say.application.DuaActivity"
+    android:background="@drawable/bg_say"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/dua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ดูอาที่ใช้ในชีวิตประจำวัน"
+        android:background="#80f1f8e9"
+        android:textColor="#607d8b"
+        android:textSize="27sp"
+        android:padding="10dp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

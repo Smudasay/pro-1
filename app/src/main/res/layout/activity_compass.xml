@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app7.say.application.CompassActivity"
+    android:background="@drawable/bg_say"
+    android:orientation="vertical"
+    android:weightSum="100"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#50f5f5f5"
+        android:layout_weight="35"
+        android:layout_height="0dp"
+        >
+        <fragment
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/map_people"
+         android:name="com.google.android.gms.maps.SupportMapFragment"
+         />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="65"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="0°"
+            android:id="@+id/txt_azimuth"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/compass"
+            android:layout_below="@+id/txt_azimuth"
+            android:id="@+id/img_compass"/>
+
+    </RelativeLayout>
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/sound2"-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="SOUND"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_marginLeft="165dp"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:background="#f1f8e9"-->
+        <!--/>-->
+
+</LinearLayout>

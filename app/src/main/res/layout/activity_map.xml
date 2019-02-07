@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app7.say.application.MapActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_say"
+    >
+
+    <TextView
+        android:id="@+id/map2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80f1f8e9"
+        android:layout_gravity="center"
+        android:text="ค้นหามัสยิดในจังหวัดภูเก็ต"
+        android:textSize="30sp"
+        android:textColor="#607d8b"
+        android:padding="7dp"
+        />
+
+    <fragment
+        android:id="@+id/map_people"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/B_MASYID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="มัสยิด"/>
+
+
+</LinearLayout>

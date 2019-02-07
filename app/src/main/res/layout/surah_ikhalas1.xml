@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_say"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/surah_ikhalas4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ‬"
+            android:textSize="25sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="ด้วยพระนามของอัลลอฮฺ ผู้ทรงกรุณาปรานี ผู้ทรงเมตตาเสมอِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="قُلْ هُوَ اللَّهُ أَحَدٌ ِِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas7"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="จงกล่าวเถิด มุฮัมมัด พระองค์คืออัลลอฮฺผู้ทรงเอกะِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas8"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="اللَّهُ الصَّمَدُ ِِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas9"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="อัลลอฮฺนั้นทรงเป็นที่พึ่งِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="28dp"
+            android:layout_marginLeft="-15dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas10"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="لَمْ يَلِدْ وَلَمْ يُولَدْ ِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas11"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="พระองค์ไม่ประสูติ และไม่ทรงถูกประสูติِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas12"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ ِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_ikhalas13"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="และไม่มีผู้ใดเสมอเหมือนพระองค์ِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

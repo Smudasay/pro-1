@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ดูอาก่อนนอนِ‬"
+        android:textSize="20sp"
+        android:background="#90fafafa"
+        android:padding="25dp"
+        android:layout_marginLeft="-15dp"
+        />
+    <TextView
+        android:id="@+id/tv_ar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="قُلْ أَعُوذُ بِرَبِّ النَّاسِِ"
+        android:textSize="23sp"
+        android:background="#60f1f8e9"
+        android:padding="17dp"
+        />
+
+</LinearLayout>

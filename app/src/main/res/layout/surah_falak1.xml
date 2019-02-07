@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_say"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/surah_falak4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ‬"
+            android:textSize="25sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="ด้วยพระนามของอัลลอฮฺ ผู้ทรงกรุณาปรานี ผู้ทรงเมตตาเสมอِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ِِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak7"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="จงกล่าวเถิด มุฮัมมัด ข้าพระองค์ขอความคุ้มครองต่อพระเจ้าแห่งรุ่งอรุณِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak8"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="مِن شَرِّ مَا خَلَقَ "
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak9"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="ให้พ้นจากความชั่วร้ายที่พระองค์ได้ทรงบันดาลขึ้นِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="28dp"
+            android:layout_marginLeft="-15dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak10"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak11"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="และจากความชั่วร้ายแห่งความมืดของเวลากลางคืนเมื่อมันแผ่คลุมِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak12"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak13"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="และจากความชั่วร้ายของบรรดาผู้เสกเป่าในปมเงื่อนِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak14"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ِ"
+            android:textSize="23sp"
+            android:background="#50f1f8e9"
+            android:padding="17dp"
+            />
+        <TextView
+            android:id="@+id/surah_falak15"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="และจากความชั่วร้ายของผู้อิจฉาเมื่อเขาอิจฉาِ‬"
+            android:textSize="17sp"
+            android:background="#70fafafa"
+            android:padding="17dp"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
